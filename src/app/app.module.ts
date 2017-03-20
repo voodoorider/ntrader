@@ -6,10 +6,12 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 
 import { AlertModule } from 'ng2-bootstrap';
+import { SideMenuComponent } from './common/side-menu/side-menu.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SideMenuComponent
   ],
   imports: [
     BrowserModule,
